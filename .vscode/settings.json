@@ -1,0 +1,8 @@
+{
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
+  "workbench.editor.decorations.badges": true,
+  "search.decorations.colors": true,
+  "search.decorations.badges": true,
+  "git.decorations.enabled": false
+}
