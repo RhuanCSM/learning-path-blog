@@ -1,6 +1,6 @@
 <div>
   <h1><%= @blog_post.title %></h1>
-  <p><%= @blog_post.body %></p>
+  <p><%= @blog_post.content %></p>
   <p><%= @blog_post.created_at.strftime("%d/%m/%Y") %></p> 
   <p><%= link_to "Editar", edit_blog_post_path %></p> 
   <p><%= link_to "Voltar", root_path %></p> 
