@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :blog_posts
 
   get "blog_posts", to: "blog_posts#index"
-  
+  get "about" => "pages#about", as: :about
 
   # Defines the root path route ("/")
   root "blog_posts#index", as: :root
